@@ -1,0 +1,1729 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RESTURANT</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/resturant.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div class="wrapper">
+		
+	<div class="cursor1"></div>
+	<div class="cursor2"></div>
+
+	<!-- Preloader -->
+
+<!-- 	<div id="loading">
+		<div id="loading-center">
+			<div id="loading-center-absolute">
+				<div class="loading-icon text-center d-flex flex-column align-items-center justify-content-center">
+					<img class="loading-logo" src="assets/images/logo.png" alt="icon">
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<!-- Responsive Menu -->
+
+	<div class="responsive-menu">
+            <div class="responsive-menu-main">
+                <div class="responsive-logo">
+                    <a href="#">
+                       <img src="assets/images/logo.png" alt="logo mobile">
+                    </a>
+                </div>
+                <div class="responsive-links">
+                	<li><a href="#">HOME  </a></li>
+                	<li><a href="#">ABOUT</a></li>
+                	<li><a href="#">MENU</a></li>
+                	<li><a href="#">PAGES </a></li>
+                	<li><a href="#">SHOP </a></li>
+                	<li><a href="#">BLOG </a></li>
+                	<li><a href="#">CONTACT </a></li>
+				</div>
+                <div class="responsive-icon">
+                    <a href="javascript:;" class="menu-close"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+
+	<header class="header">
+		<!-- SUB-HEADER -->
+		<div class="sub-header">
+			<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-3 col-md-4 col-sm-5">
+					<div class="times">
+						<p><span style="color: #b99272"><i class="fa-regular fa-clock"></i> OPENING HOURS : </span>08:00 AM - 09:00 PM</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-4 col-sm-2">
+					<div class="head-links">
+						<ul>
+							<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-5">
+					<div class="location">
+						<p><span style="color: #b99272"><i class="fa-solid fa-location-dot"></i> LOCATION : </span>55 MAIN STREET, NEW YORK</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- MAIN-HEADER -->
+		<div class="main-header">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-6 col-6 ">
+						<div class="logo">
+							<img src="assets/images/logo.png">
+						</div>						
+					</div>
+					<div class="col-lg-6 d-none d-lg-block d-sm-none">
+						<div class="navigation">
+							<nav>
+								<ul>
+									<li><a href="#">HOME <i class="fa-solid fa-chevron-down"></i></a>
+										<ul>
+											<li><a href="#">COFFEE HOUSE</a></li>
+											<li><a href="#">RESTURANT</a></li>
+										</ul>
+									</li>
+									<li><a href="#">ABOUT</a></li>
+									<li><a href="#">MENU <i class="fa-solid fa-chevron-down"></i></a>
+                                        <ul>
+											<li><a href="#">MENU - COFFEE</a></li>
+											<li><a href="#">MENU - RESTURANT</a></li>
+										</ul>
+									</li>
+									<li><a href="#">PAGES <i class="fa-solid fa-chevron-down"></i></a>
+                                        <ul>
+											<li><a href="#">RESERVATION</a></li>
+											<li><a href="#">HISTORY</a></li>
+											<li><a href="#">OUE CHEf</a></li>
+											<li><a href="#">SERVICES</a></li>
+											<li><a href="#">GALLERY</a></li>
+											<li><a href="#">FAQ</a></li>
+										</ul>
+									</li>
+									<li><a href="#">BLOG <i class="fa-solid fa-chevron-down"></i></a>
+                                        <ul>
+											<li><a href="#">BLOG GRID</a></li>
+											<li><a href="#">BLOG STANDARD</a></li>
+											<li><a href="#">BLOG SINGLE</a></li>
+										</ul>
+									</li>
+									<li><a href="#">SHOP <i class="fa-solid fa-chevron-down"></i></a>
+                                        <ul>
+											<li><a href="#">PRODUCT</a></li>
+											<li><a href="#">PRODUCT SINGLE</a></li>
+											<li><a href="#">CART</a></li>
+											<li><a href="#">CHECKOUT</a></li>
+											<li><a href="#">MY ACCOUNT</a></li>									
+										</ul>
+									</li>
+									<li><a href="#">CONTACT</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-6">
+						<div class="booking">
+							<div class="shop-icon">
+								<a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+							</div>				
+							<div class="book-btn">
+							    <a href="#">BOOK A TABLE</a>
+							</div>
+							<div class="mob-menu-box d-lg-none">
+								<a href="javascript:;" class="open-menu d-lg-none"><i class="fas fa-bars"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</header>
+
+<!-- BANNER-->
+
+	<section class="banner">
+		<div class="banner-slider">
+			<!-- Slider Item 1 -->
+			<div class="slider-item">
+				<div class="slider-image">
+					<img src="assets/images/banner.jpg">
+				</div>
+				<div class="slider-content">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 col-sm-12">
+								 <div class="banner-item">
+								 	<div class="banner-content">
+									 	<h4>WELCOME TO THE KAFFEN</h4>
+									 	<h2>Reserve Your<br> Table Today</h2>
+								 	</div>
+								 	<div class="banner-btn">
+								 		<div class="btns">
+								 			<a href="#">EXPLORE MORE  <i class="fa-solid fa-chevron-right"></i></a>
+								 		</div>
+								 		<div class="btn-2">
+								 			<a href="#">GET DELIVERY  <i class="fa-solid fa-chevron-right"></i></a>
+								 		</div>
+								 	</div>
+								 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Slider Item 2 -->
+			<div class="slider-item">
+				<div class="slider-image">
+					<img src="assets/images/started_img5.jpg">
+				</div>
+				<div class="slider-content">
+					<div class="container">
+						<div class="row">
+
+							<div class="col-lg-12">
+								 <div class="banner-content">
+								 	<h4>WELCOME TO THE KAFFEN</h4>
+								 	<h2>Explore<br> The Lobster</h2>
+								 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Slider Item 3 -->
+			<div class="slider-item">
+				<div class="slider-image">
+					<img src="assets/images/started_img6.jpg">
+				</div>
+				<div class="slider-content">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12">
+								 <div class="banner-content">
+								 	<h4>WELCOME TO THE KAFFEN</h4>
+								 	<h2>Premium <br> Meat Kaffen</h2>
+								 </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="POPULAR-CATEGORIES">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="popular-main">
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-sm-6" data-aos="fade-right">
+									<div class="cat-main">
+										<div class="cat-inner">
+											<div class="img-main">
+												<div class="popular-images">
+													<img src="assets/images/category1.jpg">
+												</div>
+												<div class="popular-title">
+													<h4>Chiken Roll</h4>
+												</div>
+											</div>
+										</div>
+										<div class="cat-inner">
+											<div class="img-main">
+												<div class="popular-images">
+													<img src="assets/images/category3.jpg">
+												</div>
+												<div class="popular-title">
+													<h4>Lobsters</h4>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-6" data-aos="fade-left">
+									<div class="cat-main pi">
+										<div class="cat-inner">
+											<div class="img-main">
+												<div class="popular-images">
+													<img src="assets/images/category2.jpg">
+												</div>
+												<div class="popular-title">
+													<h4>Salad Bowl</h4>
+												</div>
+											</div>
+										</div>
+										<div class="cat-inner">
+											<div class="img-main">
+												<div class="popular-images">
+													<img src="assets/images/category4.jpg">
+												</div>
+												<div class="popular-title">
+													<h4>Italian Burger</h4>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-sm-12" data-aos="fade-left">
+						<div class="categories-main">
+							<div class="categories-content">
+								<h4>POPULAR CATEGORIES</h4>
+								<h2>Choose Your Best Food From Categories </h2>
+								<p>Sed ut perspiciatis unde omnis iste natus error accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae abillo inventore veritatis quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia con</p>
+							</div>
+							<div class="categories-btn">
+								<a href="#"> EXPLORE MORE CATEGORY </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+<section class="tab-sec" data-aos="zoom-in" data-aos-duration="1200">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="tab-sec-title">
+					<h4>CHOOSE BEST COFFEE</h4>
+					<h2>Kaffen Popular Coffee Menu</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-sm-12 col-12">
+				<div class="bootstrap-tab-btns">
+					<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+					  <li class="nav-item" role="presentation">
+					    <button class="nav-link active" id="tab-btn-1" data-bs-toggle="pill" data-bs-target="#tab-btn-content-1" type="button" role="tab" aria-controls="tab-btn-content-1" aria-selected="true">ALL</button>
+					  </li>
+					  <li class="nav-item" role="presentation">
+					    <button class="nav-link" id="tab-btn-2" data-bs-toggle="pill" data-bs-target="#tab-btn-content-2" type="button" role="tab" aria-controls="tab-btn-content-2" aria-selected="false">DESSERT</button>
+					  </li>
+					  <li class="nav-item" role="presentation">
+					    <button class="nav-link" id="tab-btn-3" data-bs-toggle="pill" data-bs-target="#tab-btn-content-3" type="button" role="tab" aria-controls="tab-btn-content-3" aria-selected="false">FAST FOOD</button>
+					  </li>
+					  <li class="nav-item" role="presentation">
+					    <button class="nav-link" id="tab-btn-4" data-bs-toggle="pill" data-bs-target="#tab-btn-content-4" type="button" role="tab" aria-controls="tab-btn-content-4" aria-selected="false">HOT COFFEE</button>
+					  </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-sm-12 col-12">
+				<div class="tab-content" id="pills-tabContent">
+					<div class="tab-pane fade show active" id="tab-btn-content-1" role="tabpanel" aria-labelledby="tab-btn-content-1">
+						<div class="row">
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/gallery-i-5.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>COLD BREW COFFEE</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu1.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>Americano</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu2.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>Espresso Coffee</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu3.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>Barista Pouring Syrup</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu4.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>COLD - COFFEE</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu5.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>Cappuccino Arabica</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="tab-btn-content-2" role="tabpanel" aria-labelledby="tab-btn-content-2">
+						<div class="row">
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/gallery-i-5.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>COLD BREW COFFEE</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu1.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>Americano</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu2.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>Espresso Coffee</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu3.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>Barista Pouring Syrup</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu4.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>COLD - COFFEE</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu5.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>Cappuccino Arabica</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="tab-btn-content-3" role="tabpanel" aria-labelledby="tab-btn-content-3">
+						<div class="row">
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/gallery-i-5.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>COLD BREW COFFEE</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu1.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>Americano</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu2.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>Espresso Coffee</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu3.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>Barista Pouring Syrup</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu4.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>COLD - COFFEE</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu5.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>Cappuccino Arabica</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="tab-btn-content-4" role="tabpanel" aria-labelledby="tab-btn-content-4">
+						<div class="row">
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/gallery-i-5.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>COLD BREW COFFEE</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu1.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>Americano</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu2.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>Espresso Coffee</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu3.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>Barista Pouring Syrup</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu4.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>COLD - COFFEE</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6">
+								<div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu5.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>Cappuccino Arabica</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="isotopes" data-aos="fade-up"  data-aos-duration="1200">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="tab-sec-title">
+					<h4>CHOOSE BEST COFFEE</h4>
+					<h2>Kaffen Popular Coffee Menu</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-12">
+				<div class="isotpes-btns">
+					<ul>
+							<li class="active" data-filter="*">
+								<a href="javascript:;">All</a>
+							</li>
+							<li data-filter=".app">
+								<a href="javascript:;">Dessert</a>
+							</li>
+							<li data-filter=".design">
+								<a href="javascript:;">Design</a>
+							</li>
+							<li data-filter=".technology">
+								<a href="javascript:;">Fast Food</a>
+							</li>
+						</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+				<div class="isotope-main">
+					<div class="isotope-head">
+						<div class="isotope-item item app">
+							 <div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu4.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>COLD - COFFEE</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+						</div>
+						<div class="isotope-item item design">
+							 <div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu4.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>COLD - COFFEE</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+						</div>
+						<div class="isotope-item item technology">
+							 <div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu4.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>COLD - COFFEE</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+						</div>
+						<div class="isotope-item item app">
+							 <div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu4.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>COLD - COFFEE</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+						</div>
+						<div class="isotope-item item design">
+							 <div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu4.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>COLD - COFFEE</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+						</div>
+						<div class="isotope-item item technology">
+							 <div class="cold-brew">
+									<div class="cold-brew-img">
+										<img src="assets/images/menu4.jpg">
+									</div>
+									<div class="cold-brew-content">
+										<h3>COLD - COFFEE</h3>
+										<p>2/3 espresso, 1/3 streamed milk</p>
+										<div class="cold-dots">
+											<h4>---------------</h4>
+											<p>$7.9</p>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+</section>
+
+<section class="chefs" data-aos="fade-up"  data-aos-duration="1200">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="chefs-head">
+							<h4>EXPERIENCE TEAM MEMBER</h4>
+							<h2>Meet Our Professional Chefs</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="mains">
+							<div class="chef-main">
+								<div class="chef-content">
+									<h5>Anthony J. Bowman</h5>
+									<h6>Senior Chefs</h6>
+								</div>
+								<div class="mainn">
+									<div class="imgs-main">
+										<div class="chef-image">
+											<img src="assets/images/team1.jpg">
+										</div>
+									</div>	
+									<div class="title-main">
+										<div class="titles">
+											<span>bowmankf@gmail.com</span>
+											<span>+012 (345) 678 99</span>
+										</div>
+										<div class="socails">
+											<a href="#">
+												<i class="fa-brands fa-facebook"></i>
+											</a>
+											<a href="#">
+												<i class="fa-brands fa-twitter"></i>
+											</a>
+											<a href="#">
+												<i class="fa-brands fa-instagram"></i>
+											</a>
+											<a href="#">
+												<i class="fa-brands fa-youtube"></i>
+											</a>
+										</div>
+									</div>
+								</div>	
+							</div>
+						</div>	
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="mains">
+							<div class="chef-main">
+								<div class="chef-content">
+									<h5>Anthony J. Bowman</h5>
+									<h6>Senior Chefs</h6>
+								</div>
+								<div class="mainn">
+									<div class="imgs-main">
+										<div class="chef-image">
+											<img src="assets/images/team2.jpg">
+										</div>
+									</div>	
+									<div class="title-main">
+										<div class="titles">
+											<span>bowmankf@gmail.com</span>
+											<span>+012 (345) 678 99</span>
+										</div>
+										<div class="socails">
+											<a href="#">
+												<i class="fa-brands fa-facebook"></i>
+											</a>
+											<a href="#">
+												<i class="fa-brands fa-twitter"></i>
+											</a>
+											<a href="#">
+												<i class="fa-brands fa-instagram"></i>
+											</a>
+											<a href="#">
+												<i class="fa-brands fa-youtube"></i>
+											</a>
+										</div>
+									</div>
+								</div>	
+							</div>
+						</div>	
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="mains">
+							<div class="chef-main">
+								<div class="chef-content">
+									<h5>Anthony J. Bowman</h5>
+									<h6>Senior Chefs</h6>
+								</div>
+								<div class="mainn">
+									<div class="imgs-main">
+										<div class="chef-image">
+											<img src="assets/images/team3.jpg">
+										</div>
+									</div>	
+									<div class="title-main">
+										<div class="titles">
+											<span>bowmankf@gmail.com</span>
+											<span>+012 (345) 678 99</span>
+										</div>
+										<div class="socails">
+											<a href="#">
+												<i class="fa-brands fa-facebook"></i>
+											</a>
+											<a href="#">
+												<i class="fa-brands fa-twitter"></i>
+											</a>
+											<a href="#">
+												<i class="fa-brands fa-instagram"></i>
+											</a>
+											<a href="#">
+												<i class="fa-brands fa-youtube"></i>
+											</a>
+										</div>
+									</div>
+								</div>	
+							</div>
+						</div>	
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="mains">
+							<div class="chef-main">
+								<div class="chef-content">
+									<h5>Anthony J. Bowman</h5>
+									<h6>Senior Chefs</h6>
+								</div>
+								<div class="mainn">
+									<div class="imgs-main">
+										<div class="chef-image">
+											<img src="assets/images/team4.jpg">
+										</div>
+									</div>	
+									<div class="title-main">
+										<div class="titles">
+											<span>bowmankf@gmail.com</span>
+											<span>+012 (345) 678 99</span>
+										</div>
+										<div class="socails">
+											<a href="#">
+												<i class="fa-brands fa-facebook"></i>
+											</a>
+											<a href="#">
+												<i class="fa-brands fa-twitter"></i>
+											</a>
+											<a href="#">
+												<i class="fa-brands fa-instagram"></i>
+											</a>
+											<a href="#">
+												<i class="fa-brands fa-youtube"></i>
+											</a>
+										</div>
+									</div>
+								</div>	
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</section>
+
+<section class="reservation">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-3 p-0 col-md-3 d-sm-none d-xl-block" data-aos="fade-right"  data-aos-duration="1200">
+				<div class="reserv-1">
+				</div>
+			</div>
+			<div class="col-lg-6 p-0 col-md-6" data-aos="fade-up"  data-aos-duration="1200">
+				<div class="reserv-form">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="form-head">
+								<h4>BOOKING TABLE</h4>
+							    <h1>Make Your Reservation</h1>
+							</div>							
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<form>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="main">
+											<input type="text" name="f-name" placeholder="Full Name">
+											<i class="fa-regular fa-user"></i>		
+										</div>
+									</div>
+
+										<div class="col-lg-6">
+											<div class="main">
+												<input type="email" name="l-name" placeholder="Email">
+												<i class="fa-solid fa-at"></i>					
+											</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="main">
+												<input type="tel" name="Email" placeholder="Phone">
+												<i class="fa-solid fa-mobile"></i>										
+											</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="main">
+												<input type="text" name="Number" placeholder="Person">
+												<i class="fa-solid fa-chevron-down"></i>									
+											</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="main">
+												<input type="text" name="Email" placeholder="Date">
+												<i class="fa-solid fa-calendar-days"></i>								
+											</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="main">
+												<input type="text" name="Number" placeholder="Time">
+												<i class="fa-solid fa-chevron-down"></i>								
+											</div>
+										</div>
+								</div>
+							</form>
+							<div class="form-btun">
+								<a href="#">BOOKING TABLE ></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 p-0 col-md-3 d-sm-none d-xl-block" data-aos="fade-left"  data-aos-duration="1200">
+				<div class="reserv-2">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="kaffen">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6" data-aos="fade-right" data-aos-duration="1200">
+					<div class="row justify-content-center">
+						<div class="col-lg-9">
+							<div class="kaffen-content-main">
+								<div class="kaffen-content">
+									<h3>ABOUT KAFFEN</h3>
+									<h1>Have Nice & Enjoyable Time With Our Foods</h1>
+									<p>Sed ut perspiciatis unde omnis iste natus error accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae abillo inventore veritatis</p>
+								</div>
+								<div class="kaffen-icon">
+									<div class="kaffen-icon-inner">
+										<img src="assets/images/choose_icon2.png">
+									</div>
+									<div class="kaffen-icon-content">
+										<h3>100% ISO Certification</h3>
+										<p>Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque</p>
+									</div>
+								</div>
+								<div class="kaffen-btn">
+									<a href="#">EXPLORE MORE US ></a>
+								</div>
+							</div>							
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-left" data-aos-duration="1200">
+					<div class="kaffen-main">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<div class="kaffen-img-main">
+									<div class="kaffen-image">
+										<img src="assets/images/service_icon1 (1).png">
+									</div>
+									<div class="kaffen-image-content">
+										<h3>Birthday Cakes</h3>
+										<h4>Sed ut perspiciatis unde</h4>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6">								
+								<div class="kaffen-img-main">
+									<div class="kaffen-image">
+										<img src="assets/images/service_icon1 (1).png">
+									</div>
+									<div class="kaffen-image-content">
+										<h3>Fresh Foods</h3>
+										<h4>Sed ut perspiciatis unde</h4>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<div class="kaffen-img-main">
+									<div class="kaffen-image">
+										<img src="assets/images/service_icon1 (1).png">
+									</div>
+									<div class="kaffen-image-content">
+										<h3>Skilled Chefs</h3>
+										<h4>Sed ut perspiciatis unde</h4>
+									</div>
+								</div>
+							</div>
+								
+							<div class="col-lg-6 col-md-6 col-sm-6">							
+								<div class="kaffen-img-main">
+									<div class="kaffen-image">
+										<img src="assets/images/service_icon1 (1).png">
+									</div>
+									<div class="kaffen-image-content">
+										<h3>Orange Juice</h3>
+										<h4>Sed ut perspiciatis unde</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="client" data-aos="fade-up"  data-aos-duration="1200">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="client-head">
+						<h3>CUSTOMER FEEDBACK</h3>
+						<h1>What Our Clients Say</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row responsive">
+				<div class="col-lg-3 col-12">
+					<div class="client-main">
+						<div class="client-img">
+							<img src="assets/images/rev1.jpg">
+						</div>
+						<div class="client-stars">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+						</div>
+						<div class="client-content">
+							<p>Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium totam remriam eaque quae abillo</p>
+							<h3>Frederick S. France</h3>
+							<h4>Web Design</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12">
+					<div class="client-main">
+						<div class="client-img">
+							<img src="assets/images/rev1.jpg">
+						</div>
+						<div class="client-stars">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+						</div>
+						<div class="client-content">
+							<p>Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium totam remriam eaque quae abillo</p>
+							<h3>Frederick S. France</h3>
+							<h4>Web Design</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12">
+					<div class="client-main">
+						<div class="client-img">
+							<img src="assets/images/rev1.jpg">
+						</div>
+						<div class="client-stars">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+						</div>
+						<div class="client-content">
+							<p>Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium totam remriam eaque quae abillo</p>
+							<h3>Frederick S. France</h3>
+							<h4>Web Design</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12">
+					<div class="client-main">
+						<div class="client-img">
+							<img src="assets/images/rev1.jpg">
+						</div>
+						<div class="client-stars">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+						</div>
+						<div class="client-content">
+							<p>Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium totam remriam eaque quae abillo</p>
+							<h3>Frederick S. France</h3>
+							<h4>Web Design</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12">
+					<div class="client-main">
+						<div class="client-img">
+							<img src="assets/images/rev1.jpg">
+						</div>
+						<div class="client-stars">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+						</div>
+						<div class="client-content">
+							<p>Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium totam remriam eaque quae abillo</p>
+							<h3>Frederick S. France</h3>
+							<h4>Web Design</h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12">
+					<div class="client-main">
+						<div class="client-img">
+							<img src="assets/images/rev1.jpg">
+						</div>
+						<div class="client-stars">
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+							<i class="fa-solid fa-star"></i>
+						</div>
+						<div class="client-content">
+							<p>Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremque laudantium totam remriam eaque quae abillo</p>
+							<h3>Frederick S. France</h3>
+							<h4>Web Design</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="video" data-aos="fade-right"  data-aos-duration="1200">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="vid-icon">
+						<div class="vid-icon-main">
+							<a href="#"><i class="fa-solid fa-play"></i></a>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="stats" data-aos="fade-up"  data-aos-duration="1200">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-6">
+					<div class="stats-main">
+						<div class="stats-icon">
+							<i class="fa-regular fa-gem"></i>
+						</div>
+						<div class="stats-content">
+							<h1>256+</h1>
+							<h3>Premium Clients</h3>
+							<p>Sed ut perspiciatis unde</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-6">
+					<div class="stats-main">
+						<div class="stats-icon">
+							<i class="fa-regular fa-user"></i>
+						</div>
+						<div class="stats-content">
+							<h1>36+</h1>
+							<h3>Premium Clients</h3>
+							<p>Sed ut perspiciatis unde</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-6">
+					<div class="stats-main">
+						<div class="stats-icon">
+							<i class="fa-solid fa-trophy"></i>
+						</div>
+						<div class="stats-content">
+							<h1>600+</h1>
+							<h3>Premium Clients</h3>
+							<p>Sed ut perspiciatis unde</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-6">
+					<div class="stats-main">
+						<div class="stats-icon">
+							<i class="fa-regular fa-face-smile"></i>
+						</div>
+						<div class="stats-content">
+							<h1>753+</h1>
+							<h3>Premium Clients</h3>
+							<p>Sed ut perspiciatis unde</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="need" >
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-8 col-sm-8 col-12" data-aos="fade-left"  data-aos-duration="1200">
+					<div class="need-head">
+						<h3>BOOKING TABLE FOR YOUR & FAMILY MEMBERS</h3>
+						<h1>Need a Table On Coffee House</h1>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-4 col-sm-4 col-12" data-aos="fade-right"  data-aos-duration="1200">
+					<div class="need-btn">
+						<a href="#">BOOKING TABLE</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="blog" data-aos="fade-up"  data-aos-duration="1200">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="blog-head">
+						<h3>GET EVERY SINGLE UPDATE</h3>
+						<h1>Read Some Latest Blog & News</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6" data-aos="fade-left"  data-aos-duration="1200">
+					<div class="blog-main">
+						<div class="blog-img">
+							<img src="assets/images/latest_blog1.jpg">
+						</div>
+						<div class="blog-content">
+							<h5>SWR React Hooks With Next Increm Ental Static Regeneration</h5>
+							<div class="blog-content-main">
+								<div class="blog-date">
+									<i class="fa-regular fa-calendar-days"></i><p>March 26, 2022</p>
+									
+								</div>
+								<div class="blog-time">
+									<i class="fa-regular fa-comments"></i>
+									<p>Comments  (0)</p>
+								</div>
+							</div>							
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6" data-aos="fade-left"  data-aos-duration="1200">
+					<div class="blog-main">
+						<div class="blog-img">
+							<img src="assets/images/latest_blog2.jpg">
+						</div>
+						<div class="blog-content">
+							<h5>SWR React Hooks With Next Increm Ental Static Regeneration</h5>
+							<div class="blog-content-main">
+								<div class="blog-date">
+									<i class="fa-regular fa-calendar-days"></i><p>March 26, 2022</p>
+									
+								</div>
+								<div class="blog-time">
+									<i class="fa-regular fa-comments"></i>
+									<p>Comments  (0)</p>
+								</div>
+							</div>							
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6" data-aos="fade-left"  data-aos-duration="1200">
+					<div class="blog-main">
+						<div class="blog-img">
+							<img src="assets/images/latest_blog3.jpg">
+						</div>
+						<div class="blog-content">
+							<h5>SWR React Hooks With Next Increm Ental Static Regeneration</h5>
+							<div class="blog-content-main">
+								<div class="blog-date">
+									<i class="fa-regular fa-calendar-days"></i><p>March 26, 2022</p>
+									
+								</div>
+								<div class="blog-time">
+									<i class="fa-regular fa-comments"></i>
+									<p>Comments  (0)</p>
+								</div>
+							</div>							
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 d-lg-none d-md-block col-md-6 d-sm-none" data-aos="fade-left"  data-aos-duration="1200">
+					<div class="blog-main">
+						<div class="blog-img">
+							<img src="assets/images/latest_blog1.jpg">
+						</div>
+						<div class="blog-content">
+							<h5>SWR React Hooks With Next Increm Ental Static Regeneration</h5>
+							<div class="blog-content-main">
+								<div class="blog-date">
+									<i class="fa-regular fa-calendar-days"></i><p>March 26, 2022</p>
+									
+								</div>
+								<div class="blog-time">
+									<i class="fa-regular fa-comments"></i>
+									<p>Comments  (0)</p>
+								</div>
+							</div>							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="blog-btn">
+						<a href="#">VIEW ALL ></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="slider" data-aos="fade-right"  data-aos-duration="1200">
+		<div class="container-fluid">
+			<div class="row insta-slider">
+				<div class="col-lg-3 p-0 col-md-3 col-3">
+				    <div class="insta-main">
+				    	<div class="insta-main-img">
+				    		<img src="assets/images/inst1.jpeg">
+				    	</div>
+				    	<div class="insta-main-content">
+				    		<a href="#"><i class="fa-brands fa-instagram"></i></a>
+				    	</div>				    	
+				    </div>
+				</div>
+				<div class="col-lg-3 p-0 col-md-3 col-3">
+				    <div class="insta-main">
+				    	<div class="insta-main-img">
+				    		<img src="assets/images/inst2.jpeg">
+				    	</div>
+				    	<div class="insta-main-content">
+				    		<a href="#"><i class="fa-brands fa-instagram"></i></a>
+				    	</div>				    	
+				    </div>
+				</div>
+				<div class="col-lg-3 p-0 col-md-3 col-3">
+				    <div class="insta-main">
+				    	<div class="insta-main-img">
+				    		<img src="assets/images/inst3.jpeg">
+				    	</div>
+				    	<div class="insta-main-content">
+				    		<a href="#"><i class="fa-brands fa-instagram"></i></a>
+				    	</div>				    	
+				    </div>
+				</div>
+				<div class="col-lg-3 p-0 col-md-3 col-3">
+				    <div class="insta-main">
+				    	<div class="insta-main-img">
+				    		<img src="assets/images/inst4.jpeg">
+				    	</div>
+				    	<div class="insta-main-content">
+				    		<a href="#"><i class="fa-brands fa-instagram"></i></a>
+				    	</div>				    	
+				    </div>
+				</div>
+				<div class="col-lg-3 p-0 col-md-3 col-3">
+				    <div class="insta-main">
+				    	<div class="insta-main-img">
+				    		<img src="assets/images/inst5.jpeg">
+				    	</div>
+				    	<div class="insta-main-content">
+				    		<a href="#"><i class="fa-brands fa-instagram"></i></a>
+				    	</div>				    	
+				    </div>
+				</div>
+				<div class="col-lg-3 p-0 col-md-3 col-3">
+				    <div class="insta-main">
+				    	<div class="insta-main-img">
+				    		<img src="assets/images/inst6.jpeg">
+				    	</div>
+				    	<div class="insta-main-content">
+				    		<a href="#"><i class="fa-brands fa-instagram"></i></a>
+				    	</div>				    	
+				    </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="brand" data-aos="fade-up"  data-aos-duration="1200">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 p-0 col-md-2 col-sm-4 col-4">
+					<div class="brand-img">
+						<img src="assets/images/brand1.png">
+					</div>
+				</div>
+				<div class="col-lg-2 p-0 col-md-2 col-sm-4 col-4">
+					<div class="brand-img">
+						<img src="assets/images/brand2.png">
+					</div>
+				</div>
+				<div class="col-lg-2 p-0 col-md-2 col-sm-4 col-4">
+					<div class="brand-img">
+						<img src="assets/images/brand3.png">
+					</div>
+				</div>
+				<div class="col-lg-2 p-0 col-md-2 col-sm-4 col-4">
+					<div class="brand-img">
+						<img src="assets/images/brand4.png">
+					</div>
+				</div>
+				<div class="col-lg-2 p-0 col-md-2 col-sm-4 col-4">
+					<div class="brand-img">
+						<img src="assets/images/brand5.png">
+					</div>
+				</div>
+				<div class="col-lg-2 p-0 col-md-2 col-sm-4 col-4">
+					<div class="brand-img">
+						<img src="assets/images/brand6.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer >
+		<div class="container">
+			<div class="row">		
+					<div class="col-lg-3 col-md-6 col-sm-6">
+					    <div class="foot-logo">
+					    	<div class="f-logo">
+					    		<a href="#"><img src="assets/images/logo.png"></a>
+					    	</div>
+					    	<div class="f-content">
+					    		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut elit tellus, luctus nec.</p>
+					    	</div>
+					    	<div class="f-icon">
+					    		<i class="fa-brands fa-facebook"></i>
+					    		<i class="fa-brands fa-twitter"></i>
+					    		<i class="fa-brands fa-instagram"></i>
+					    		<i class="fa-brands fa-youtube"></i>
+					    	</div>
+					    </div> 
+				    </div>
+				    <div class="col-lg-3 col-md-6 col-sm-6">
+				    	<div class="f-working">
+				    		<h3>Working Hours</h3>
+				    		<div class="f-working-content">
+				    			<ul>
+				    				<li><span style="color: var(--c3); font-size: 17px">Sunday - Thursday</span><br>08:00 am - 09:00pm</li>
+				    				<li><span style="color: var(--c3);font-size: 17px ">Only Friday</span><br>08:00 am - 09:00pm</li>
+				    				<li><span style="color: var(--c3); font-size: 17px">Saturday - Thursday</span><br>Closed</li>
+				    			</ul>
+				    		</div>
+				    	</div>
+				    </div>
+
+				    <div class="col-lg-3 col-md-6 col-sm-6">
+				    	<div class="f-contact">
+				    		<h3>Contact Us</h3>
+				    		<div class="f-contact-content">
+				    			<div class="f-location">
+				    				<div class="f-location-icon">
+				    					<i class="fa-solid fa-location-dot"></i>
+				    				</div>
+				    				<div class="f-location-content">
+				    					<h5>Location</h5><br>
+				    					<p>55 Main Street, New York</p>
+				    				</div>
+				    				
+				    			</div>
+				    			<div class="f-email">
+				    				<div class="f-email-icon">
+				    					<i class="fa-solid fa-envelope"></i>
+				    				</div>
+				    				<div class="f-email-content">
+				    					<h5>Email-Address</h5><br>
+				    					<p>kaffendev@gmail.com</p>
+				    				</div>
+				    				
+				    			</div>
+				    			<div class="f-phone">
+				    				<div class="f-phone-icon">
+				    					<i class="fa-solid fa-phone"></i>
+				    				</div>
+				    				<div class="f-phone-content">
+				    					<h5>Phone Number</h5><br>
+				    					<p>+012 (345) 678 99</p>
+				    				</div>
+				    				
+				    			</div>
+				    		</div>
+				    	</div>
+				    </div>
+				    <div class="col-lg-3 col-md-6 col-sm-6 ">
+				    	<div class="f-insta">
+				    		<div class="insta-head">
+				    			<h3>Follow Instagram</h3>
+				    		</div>
+				    		<div class="insta-img-main">
+				    			<div class="row"> 
+				    			<div class="col-lg-4 col-md-4 col-sm-4 col-4">
+				    				<div class="insta-images">
+				    			        <img src="assets/images/inst5.jpeg">
+				    		        </div>  
+				    			</div>
+				    			<div class="col-lg-4 col-md-4 col-sm-4 col-4">
+				    				<div class="insta-images">
+				    			        <img src="assets/images/inst6.jpeg">
+				    		        </div>  
+				    			</div>
+				    			<div class="col-lg-4 col-md-4 col-sm-4 col-4">
+				    				<div class="insta-images">
+				    			        <img src="assets/images/inst5.jpeg">
+				    		        </div>  
+				    			</div>
+				    			<div class="col-lg-4 col-md-4 col-sm-4 col-4">
+				    				<div class="insta-images">
+				    			        <img src="assets/images/inst6.jpeg">
+				    		        </div>  
+				    			</div>
+				    			<div class="col-lg-4 col-md-4 col-sm-4 col-4">
+				    				<div class="insta-images">
+				    			        <img src="assets/images/inst5.jpeg">
+				    		        </div>  
+				    			</div>
+				    			<div class="col-lg-4 col-md-4 col-sm-4 col-4">
+				    				<div class="insta-images">
+				    			        <img src="assets/images/inst6.jpeg">
+				    		        </div>  
+				    			</div>
+				    		</div>
+				    		</div>			    		
+				    	</div>
+				    </div>	
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="assets/js/theme.js"></script>
+<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+
+</body>
+</html>

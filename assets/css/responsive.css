@@ -1,0 +1,534 @@
+/*for-desktop view-1600*/   /*xxl*/
+
+@media only screen and (min-width: 100px) and (max-width: 1600px) {
+}
+  
+/*for-large-dekstop view-1200*/  /*xl*/
+  
+@media only screen and (min-width: 100px) and (max-width: 1399px) {
+ 
+ .banner-content h2 {
+    font-size: 70px;
+}
+ .icon {
+    margin-right: 0px;
+}
+.banner-content h2 {
+    font-size: 70px;
+    padding-left: 55px;
+}
+.categories-main {
+    margin-left: 40px;
+}
+.tab-sec-title h2 {
+    margin: 0 0 0px;
+}
+.cold-brew-img img {
+    width: 180px;
+}
+.navigation nav ul li a {   
+    font-size: 12px;
+}
+section.POPULAR-CATEGORIES {
+    padding: 90px 0px 0px 0px;
+}
+.chef-content h5 {
+    font-size: 18px;
+}
+.chef-content h6 {
+    font-size: 18px;
+}
+
+
+}
+  
+/*for-laptop view-1024*/ /*lg*/
+  
+@media only screen and (min-width: 100px) and (max-width: 1199px) {
+
+    .banner-content h2 {
+    font-size: 50px;
+}
+.categories-main {
+    margin: 100px 0px;
+    margin-left: 40px;
+}
+   .navigation nav ul li a {
+    font-size: 13px;
+}
+.navigation nav ul li a i {
+    font-size: 7px;
+}
+.location {
+    text-align: end;
+}
+.navigation nav > ul {
+    gap: 21px;
+}
+.isotope-item {
+    width: 33%;
+}
+.cold-brew-content h3 {
+    padding-top: 20px;
+}
+.cold-dots {
+    padding-top: 0px;
+}
+.chef-main {
+    padding: 15px;
+    margin: 0;
+}
+section.chefs {
+    padding: 100px 0px;
+}
+
+}
+  
+/*for-tablet view-768*/ /*md*/
+  
+@media only screen and (min-width: 100px) and (max-width: 991px) {
+
+   .banner-content h2 {
+    font-size: 50px;
+}
+.banner-content h2 {
+    padding-left: 0px;
+    font-size: 60px;
+}
+.categories-content h2 {
+    font-size: 50px;
+    line-height: 65px;
+}
+.categories-content h4 {    
+    font-size: 22px;
+}
+.categories-content p {   
+    font-size: 17px;
+    line-height: 33px;
+}
+.cold-brew-img img {
+    width: 100%;
+    height: 240px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+.cold-brew-img {
+    width: 100%;
+    margin: 0px;
+}
+.isotope-item {
+    width: 50%;
+}
+.cold-brew {
+    flex-direction: column;
+    margin: 0px 10px;
+}
+.cold-brew-content h3 {
+    font-size: 23px;
+}
+.cold-brew-content p {
+    font-size: 19px;
+}
+.cold-dots p {
+    font-size: 30px;
+}
+.cold-dots h4 {
+    font-size: 30px;
+}
+.cold-dots {
+    padding-top: 0px;
+}
+.reserv-2 {
+    padding: 386px 0px;
+}
+.reserv-1 {
+    padding: 386px 0px;
+}
+.kaffen-btn {
+    text-align: center;
+    padding-top: 15px;
+}
+.kaffen-icon-content {
+    padding-top: 20px;
+}
+.kaffen-icon {
+    padding: 15px 0px;
+}
+.kaffen-icon-content p {
+    font-size: 18px;
+}
+.kaffen-content p {
+    font-size: 18px;
+}
+.kaffen-content h3 {
+    font-size: 21px;
+}
+.client-img {
+    left: 125px;
+}
+.need-head h1 {
+    padding-top: 0px;
+}
+.need-btn {
+    padding-top: 30px;
+}
+.blog-main {
+    padding: 10px 0px;
+}
+.slick-slide img {
+    object-fit: cover;
+}
+.insta-main {
+    height: 240px;
+}
+.video {
+    padding: 80px;
+}
+.kaffen {
+    padding: 50px 0px;
+}
+.kaffen-content-main {
+    margin-top: 80px;
+}
+.kaffen-main {
+    padding: 45px;
+}
+.brand-img img {
+    height: 120px;
+    padding: 17px;
+    object-fit: cover;
+}
+.f-working h3, .f-contact h3, .f-insta h3 {
+    font-size: 30px;
+}
+
+    
+}
+/*for-tablet view-576*/ /*sm*/
+  
+@media only screen and (min-width: 100px) and (max-width: 767px) {
+.sub-header {
+    display: none;
+}
+.shop-icon {
+    display: none;
+}
+.book-btn {
+    display: none;
+}
+.mob-menu-box a i {
+    font-size: 25px;
+    color: var(--c3);
+    padding-top: 20px;
+    padding-right: 15px;
+}
+.banner-content h4 {
+    font-size: 14px;
+}
+.banner-content h2 {
+    font-size: 50px;
+}
+.banner-btn {
+    gap: 25px;
+}
+.btns a {
+    font-size: 13px;
+    padding: 14px 25px;
+}
+.btn-2 a {
+    font-size: 13px;
+    padding: 14px 25px;
+}
+.banner .slider-arrow i {
+    padding: 5px 5px;
+}
+.categories-content h4 {
+    font-size: 18px;
+}
+.categories-content h2 {
+    font-size: 40px;
+    line-height: 50px;
+    padding-bottom: 15px;
+}
+.categories-content p {
+    font-size: 15px;
+    line-height: 29px;
+}
+.categories-btn a {
+    font-size: 13px;
+    padding: 14px 20px;
+}
+ul#pills-tab {
+    gap: 25px;
+}
+.bootstrap-tab-btns ul li button {
+    padding: 12px 25px;
+}
+.cold-brew-content h3 {
+    font-size: 20px;
+    padding-top: 10px
+}
+.cold-brew-content p {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.cold-dots h4 {
+    font-size: 25px;
+}
+.cold-dots {
+    align-items: baseline;
+}
+.isotpes-btns ul li a {
+    color: var(--c1);
+    padding: 10px 25px;
+    border-radius: 6px;
+}
+.chefs-head h2 {
+    font-size: 32px;
+}
+.chefs-head h4 {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.chef-main {
+    padding: 10px;
+    margin: 10px;
+}
+.kaffen-image-content h4 {
+    font-size: 16px;
+    padding-top: 0px;
+}
+.kaffen-image-content h2 {
+    font-size: 18px;
+}
+.client-img {
+    left: 34%;
+}
+.vid-icon-main a i {
+    font-size: 20px;
+    padding: 35px 40px;
+}
+.video {
+    padding: 60px;
+}
+.stats-main {
+    margin: 8px;
+}
+.need-btn a{
+    font-size: 14px;
+    padding: 15px 11px;
+}
+.need-head h3 {
+    font-size: 14px;
+}
+.need-head h1{
+    font-size: 30px;
+}
+.need-btn{
+    padding-top: 5px;
+    padding-right: 30px;
+}
+.brand-img img {
+    margin: 20px 0px;
+    object-fit: contain;
+    padding: 10px;
+}
+section.brand { 
+    padding: 70px 0px;
+}
+section.blog {
+    padding: 70px 0px;
+}
+.blog-img img {
+    width: 100%;
+    height: 300px;
+}
+.blog-content {
+    padding: 0px 15px;
+}
+.blog-content h5 {    
+    font-size: 21px;
+    padding-bottom: 0px;   
+}
+.blog-content-main {
+    justify-content: space-between;
+}
+.blog-date i{
+    font-size: 22px;
+    padding-top: 4px;
+}
+.blog-date p{
+    font-size: 20px;
+}
+.blog-time i{
+    font-size: 22px;
+    padding-top: 4px;
+}
+.blog-time p{
+    font-size: 20px;
+}
+.blog-main {
+    padding: 10px 10px;
+}
+
+
+}
+
+/*for mobile view 375 col*/
+
+@media only screen and (min-width: 100px) and (max-width: 575px) {
+
+   .container {
+    width: 96% !important;
+}
+section.POPULAR-CATEGORIES {
+    padding: 10px 0px;
+}
+.categories-content h2 {
+    font-size: 35px;
+    line-height: 50px;
+    padding-bottom: 15px;
+}
+.categories-content h4 {
+    font-size: 17px;
+}
+.categories-main {
+    margin: 40px 0px;
+    padding: 0px 10px;
+}
+section.tab-sec {
+    padding: 60px 0px;
+}
+section.isotopes {
+    padding: 30px 0px 60px;
+}
+section.chefs {
+    padding: 60px 0px;
+}
+.kaffen-content-main {
+    margin-top: 20px;
+}
+section.client {
+    padding: 0px;
+}
+ul.slick-dots {
+    padding-top: 10px;
+}
+.pi {
+    margin-top: -40px;
+}
+.bootstrap-tab-btns ul li button {
+    padding: 10px 13px;
+    font-size: 14px;
+}
+.cold-brew {
+    margin: 10px 10px;
+    background: var(--c4);
+    padding: 15px;
+    border-radius: 15px;
+}
+.cold-brew-content h3 {
+    margin-bottom: 0px;
+}
+.cold-brew-content p {
+    margin-bottom: 5px;
+}
+ul#pills-tab {
+    padding-bottom:20px;
+    gap: 15px;
+}
+.isotpes-btns ul {
+    gap: 0;  
+}
+.reserv-1 {
+    display: none;
+}
+.reserv-2 {
+    display: none;
+}
+.client-img {
+    left: 35%;
+}
+.client-main {
+    margin: 55px 50px 0px 50px;
+}
+.stats {
+    padding: 100px 0px;
+}
+.stats-main {
+    margin: 20px 8px;
+    text-align: center;
+}
+.need-btn a {
+    font-size: 14px;
+    padding: 12px 20px;
+}
+.need-btn {
+    padding-top: 20px;
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
+}
+.need-head h3 {
+    font-size: 15px;
+}
+.need-head h1 {
+    font-size:30px;
+}
+.blog-date p{
+    font-size: 17px;
+}
+.blog-date i{
+    font-size: 17px;
+}
+.blog-time i{
+    font-size: 17px;
+}
+.blog-time p{
+    font-size: 17px;
+}
+.blog-btn {
+    padding: 25px 0px;
+}
+.isotope-item {
+    width: 100%;
+}
+.isotpes-btns ul li a {
+    padding: 10px 23px;
+}
+.stats-content h1 {
+    font-size: 35px;
+}
+.stats-content h3 {
+    font-size: 19px;
+    margin-bottom: 0px;
+}
+.insta-main img {
+    width: 100%;
+    height: 180px;
+}
+.f-location-icon i, .f-email-icon i, .f-phone-icon i {
+    font-size: 20px;
+    color: var(--c3);
+    padding-top: 10px;
+}
+.banner-content h4:before {
+    width: 33px;
+}
+.banner-content h4 {
+    padding-left: 45px;
+}
+.banner .slider-arrow i {
+    margin-top: 30px;
+}
+
+
+}
+
+/*for small mobile view 320 */
+
+@media only screen and (min-width: 100px) and (max-width: 374px) {
+
+  
+
+}
