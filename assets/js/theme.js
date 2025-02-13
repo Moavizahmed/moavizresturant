@@ -140,25 +140,20 @@ jQuery(".isotpes-btns ul li").click(function () {
     document.addEventListener("mousemove", mousemoveHandler);
 
 
-// Sticky Header on Scroll Up
 
-const header = document.querySelector(".header");
-const toggleClass = "is-sticky";
+// STICKY HEADER
+    
+$(document).ready(function () {
+  var header = $(".header");
+  var toggleClass = "is-sticky";
 
-let lastScroll = 0;
-
-window.addEventListener("scroll", () => {
-  const currentScroll = window.pageYOffset;
-
-  if (currentScroll > lastScroll && currentScroll > 100) {
-    // Scrolling Down - Hide Header
-    header.classList.remove(toggleClass);
-  } else if (currentScroll < lastScroll) {
-    // Scrolling Up - Show Header
-    header.classList.add(toggleClass);
-  }
-
-  lastScroll = currentScroll; // Update last scroll position
+  $(window).on("scroll", function () {
+    if ($(this).scrollTop() > 100) {
+      header.addClass(toggleClass);
+    } else {
+      header.removeClass(toggleClass);
+    }
+  });
 });
 
 // Pre Loader
